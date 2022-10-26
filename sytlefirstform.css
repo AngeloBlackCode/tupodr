@@ -1,0 +1,146 @@
+body{
+    background: linear-gradient(180deg,rgb(233, 203, 203),rgb(230, 157, 160),rgb(203, 53, 61));
+    display: flex;
+	justify-content: flex-start ;
+	align-items: flex-start ;
+	height: 100vh;
+    padding: 0;
+    margin: 0;
+    position: sticky;
+}
+
+form{
+	color:  #000000;
+	width: 500px;
+    height: 300px;
+	border: 2px solid #000000;
+    box-shadow: 10px 10px 100px  rgb(0, 0, 0);
+	padding: 30px;
+	background: #593436;
+	border-radius:5px;	
+    position: absolute;
+    box-shadow: #000000;
+    top: 20%;
+    left:33% ;
+    
+}
+input{	
+	display: block;
+	border: 2px solid #000000;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius:5px;
+}
+#SAM{
+	color:  #000000;
+	font-size:18px;
+	padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    position: absolute;
+    top: 14%;
+    left: 40%;
+}
+label{
+	color:  #000000;
+	font-size:18px;
+	padding: 10px;
+}
+#fp{
+    float: left;
+	color:  #ffffff;
+	font-size:16px;
+    padding: 10px 15px;
+    position:absolute ;
+    bottom: 10%;
+    left: 3%;
+}
+
+#ch{
+    float: left;
+	color:  #ffffff;
+	font-size:16px;
+    padding: 10px 15px;
+    position:absolute ;
+    bottom: 10%;
+    left: 30%;
+}
+button{
+	float: right;
+	background: #b71921;
+    border: 5px solid #ffffff;
+	padding: 10px 15px;
+	color:#fff;
+	border-radius:0px;
+	margin-right: 10px;
+	border:none;
+
+}
+button:hover{
+	opacity: .7;
+}
+#signup{
+	float: left;
+	background: #b71921;
+    border: 2px solid #ffffff;
+	padding: 10px 15px;
+	color:#fff;
+	border-radius:0px;
+	margin-right: 10px;
+	border:none;
+}
+#signup:hover{
+	opacity: .7;
+}
+@media only screen and (min-width: 375px ) {
+    body{
+        background: linear-gradient(180deg,rgb(233, 203, 203),rgb(230, 157, 160),rgb(203, 53, 61));
+        display: flex;
+        justify-content: flex-start ;
+        align-items: flex-start ;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        position: sticky;
+    }
+
+    form{
+        color:  #000000;
+        width: 250px;
+        height: 300px;
+        border: 2px solid #000000;
+        box-shadow: 10px 10px 100px  rgb(0, 0, 0);
+        padding: 30px;
+        background: #593436;
+        border-radius:5px;	
+        position: absolute;
+        box-shadow: #000000;
+        top: 20%;
+        left:8% ;
+        
+        
+    }
+    #SAM{
+        color:  #000000;
+        font-size:18px;
+        padding: 10px;
+        font-weight: bold;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+        position: absolute;
+        top: 14%;
+        left: 20%;
+    }
+    #ch{
+        float: left;
+        color:  #ffffff;
+        font-size:16px;
+        padding: 10px 15px;
+        position:absolute ;
+        bottom: 10%;
+        left: 52%;
+    }
+    
+    
+}
